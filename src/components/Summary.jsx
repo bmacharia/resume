@@ -6,7 +6,7 @@ export default function Summary({ summary }) {
     <section className="print:break-inside-avoid">
       <HeaderWithLine title="Summary" />
       <div className="space-y-4">
-        <p className="text-gray-700">{summary}</p>
+        <p className="text-sm text-gray-700">{summary}</p>
       </div>
     </section>
   );

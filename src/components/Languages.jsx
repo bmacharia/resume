@@ -7,7 +7,7 @@ export default function Languages({ languages }) {
         <HeaderWithLine title="Languages" />
         <ul className="list-disc list-inside space-y-1">
           {languages.map((lang, idx) => (
-            <li key={idx} className="text-gray-700">
+            <li key={idx} className="text-sm text-gray-700">
               {lang.language} ({lang.fluency})
             </li>
           ))}

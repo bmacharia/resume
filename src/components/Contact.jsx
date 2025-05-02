@@ -8,7 +8,7 @@ export default function Contact({ basics }) {
     return (
       <section>
         {/* <h2 className="text-xl font-bold mb-2 uppercase">Contact</h2> */}
-        <div className="space-y-2">
+        <div className="text-sm space-y-2">
           <div className="flex items-center gap-2">
             <img 
               src={`${import.meta.env.BASE_URL}icons/email.svg`} 
