@@ -17,7 +17,7 @@ function App() {
   if (!resume) return <div className="p-8 text-center">Loading...</div>;
 
   return (
-    <div className="max-w-5xl mx-auto p-4 md:p-8 font-sans">
+    <div className="max-w-5xl mx-auto bg-white rounded-md shadow-[0_10px_20px_rgba(0,0,0,0.19),_0_6px_6px_rgba(0,0,0,0.23)] border border-gray-100 p-6 md:p-8 font-sans transform hover:shadow-[0_14px_28px_rgba(0,0,0,0.25),_0_10px_10px_rgba(0,0,0,0.22)] transition-all duration-300 ease-in-out">
       <header className="mb-8 border-b pb-4">
         <h1 className="text-4xl font-bold">{resume.basics.name}</h1>
         <h2 className="text-2xl text-gray-600">{resume.basics.label}</h2>
@@ -28,7 +28,6 @@ function App() {
             <Contact basics={resume.basics} />
           </aside>
           <div className="md:col-span-2 space-y-6">
-            
             <Skills skills={resume.skills} />
             <Languages languages={resume.languages} />
           </div>
