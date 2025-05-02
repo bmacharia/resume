@@ -1,0 +1,196 @@
+{
+    "basics": {
+      "name": "Giuseppe Santoro",
+      "label": "Senior Software Engineer",
+      "email": "giuseppe.santoro@gmail.com",
+      "summary": "Senior Software Engineer with 12+ years experience specializing in platform engineering, cloud-native technologies, and observability. Proven track record building scalable infrastructure and data pipelines using AWS, Kubernetes, and Golang. CKA certified with extensive experience in DevOps practices and distributed systems. Technical writer with 1,800+ subscribers and mentor helping teams adopt cloud-native solutions.",
+      "profiles": [
+        {
+          "network": "GitHub",
+          "username": "gsantoro",
+          "url": "https://github.com/gsantoro"
+        },
+        {
+          "network": "LinkedIn",
+          "username": "santorogiuseppe",
+          "url": "https://linkedin.com/in/santorogiuseppe"
+        },
+        {
+          "network": "Substack",
+          "username": "cloudnativeengineer",
+          "url": "https://cloudnativeengineer.substack.com"
+        },
+        {
+          "network": "Substack",
+          "username": "cloudnativecreator",
+          "url": "https://cloudnativecreator.substack.com"
+        },
+        {
+          "network": "MobyGames",
+          "username": "giuseppe-santoro",
+          "url": "https://www.mobygames.com/person/1021019/giuseppe-santoro/"
+        },
+        {
+          "network": "LeetCode",
+          "username": "gsantoro",
+          "url": "https://leetcode.com/gsantoro"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "Elastic",
+        "position": "Senior Software Engineer",
+        "website": "",
+        "startDate": "2024-05",
+        "endDate": "Present",
+        "team": "Platform - Engineering Productivity Team",
+        "highlights": [
+          "Single-handedly designed and implemented a way to integrate with Elastic Synthetic monitoring, achieving widespread adoption across 8+ engineering teams for monitoring business-critical internal infrastructure.",
+          "Supported company-wide dependency management through Renovate to ensure consistent and up-to-date software dependencies across the organization's codebase.",
+          "Member of the production incident response team, providing on-call support during business hours and weekend rotations. Demonstrated strong problem-solving abilities through incident investigation and documentation of root cause analyses."
+        ]
+      },
+      {
+        "company": "Elastic",
+        "position": "Senior Software Engineer",
+        "website": "",
+        "startDate": "2022-03",
+        "endDate": "2024-05",
+        "team": "Observability - Cloud Native Team",
+        "highlights": [
+          "Developed and implemented a custom Elastic integration for Istio logs and metrics.",
+          "Technical reviewer of the book Elastic Stack 8.x Cookbook.",
+          "Engineered a remote debugging solution for Elastic Beats running on Kubernetes using Go Delve Debugger and Tilt streamlining troubleshooting processes.",
+          "Created and maintained dashboards for the Elastic Kubernetes integration.",
+          "Resolved complex Kubernetes-related customer support issues.",
+          "Contributed bug fixes and new features to Elastic Agent and Beats codebases.",
+          "Served as a member of the interview committee, participating in technical evaluations across multiple positions."
+        ]
+      },
+      {
+        "company": "CloudNativeEngineer",
+        "position": "Technical Writer",
+        "website": "",
+        "startDate": "2023",
+        "endDate": "Present",
+        "highlights": [
+          "Created deep-dive content on cloud-native technologies (Kubernetes), Elasticsearch, System Design, Python programming and Automation tools for DevOps",
+          "Reached an audience of 1,800+ free subscribers and 14+ paid subscribers via my newsletter",
+          "Maintained consistent engagement with 4.7K monthly views"
+        ]
+      },
+      {
+        "company": "MentorCruise",
+        "position": "Mentor",
+        "website": "",
+        "startDate": "2023",
+        "endDate": "Present",
+        "highlights": [
+          "Mentored CTOs and CEOs on technical architecture decisions, providing guidance on Elasticsearch implementation and system design optimization",
+          "Provided technical mentorship to Senior Software Engineers on system design, cloud-native technologies, and career development, with focus on Kubernetes and DevOps practices",
+          "Successfully prepared senior engineers for both technical and behavioral interviews at leading technology companies, including system design discussions and architectural decision-making",
+          "Reached a 5-star rating on 8+ reviews"
+        ]
+      },
+      {
+        "company": "PlayStation",
+        "position": "Big Data Engineer",
+        "website": "",
+        "startDate": "2018",
+        "endDate": "2021",
+        "team": "Game Analytics Team",
+        "highlights": [
+          "Built data analytics optimization tool in Golang, improving query performance from hours to seconds for multi-month data using AWS S3, Athena, Glue",
+          "Developed real-time event processor with Python, AWS Lambda, Kinesis for ID replacement using S3-backed caching",
+          "Created data warehouse ingestion pipeline using Golang, AWS Kinesis Firehose",
+          "Supported 10+ PlayStation game launches with capacity planning and cost optimization using AWS EMR, Lambda, Kinesis",
+          "Led pipeline refactoring project using Golang, Python, AWS Kinesis, EMR, Terraform",
+          "Automated Grafana user management through Okta synchronization with Python",
+          "Created video search and transcoding tool for Studio Engineers using Python",
+          "Maintained infrastructure of 10+ microservices, 20+ EMR jobs, 5+ Lambdas with Terraform, Ansible"
+        ]
+      },
+      {
+        "company": "Skimlinks",
+        "position": "Senior Software Engineer",
+        "website": "",
+        "startDate": "2017-03",
+        "endDate": "2018-08",
+        "team": "Platform Team",
+        "highlights": [
+          "Reduced pipeline runtime by 4x using Google Dataflow, Java for ingesting 120M documents into Elasticsearch",
+          "Migrated data pipeline from on-premise Hadoop to Google BigQuery, achieving 30% infrastructure cost savings",
+          "Built Airflow orchestration on Kubernetes, automating pipeline scheduling and monitoring",
+          "Developed data pipeline monitoring using Python, InfluxDB, Grafana and optimized Hive queries"
+        ]
+      },
+      {
+        "company": "Big Data Partnership (acquired by Teradata)",
+        "position": "Senior Big Data Engineer",
+        "website": "",
+        "startDate": "2013",
+        "endDate": "2015",
+        "team": "Training & Consulting",
+        "highlights": [
+          "Delivered official Hadoop training at Hadoop Summit with Hortonworks for 2 consecutive years",
+          "Led 5+ Hadoop training courses (Admin/Developer) across Europe, achieving 90% positive feedback",
+          "Led team of 3 engineers in 4-month greenfield project implementing Hadoop cluster and data pipeline",
+          "Certified Hadoop Administrator (83%), Developer (92%), and Java Developer (93%)"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Programming",
+        "keywords": ["Python", "Golang", "SQL"]
+      },
+      {
+        "name": "Cloud & Infrastructure",
+        "keywords": ["AWS (Lambda, Kinesis, EMR, S3, Glue, Athena)", "GCP (Dataflow, BigQuery)", "Kubernetes"]
+      },
+      {
+        "name": "Elastic Stack",
+        "keywords": ["Elastic Cloud on Kubernetes (ECK)", "Elastic Agent", "Beats", "Kibana", "Integration Development"]
+      },
+      {
+        "name": "DevOps & Tools",
+        "keywords": ["Docker", "Terraform", "Ansible", "Renovate", "Bash scripting"]
+      }
+    ],
+    "certificates": [
+      {
+        "name": "Certified Kubernetes Administrator (CKA)",
+        "issuer": "Linux Foundation",
+        "description": "Comprehensive certification demonstrating expertise in deploying, managing, and troubleshooting Kubernetes clusters in production environments."
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Catania",
+        "area": "Computer Engineering",
+        "studyType": "Master's",
+        "startDate": "2006",
+        "endDate": "2012",
+        "gpa": "Graduated with honors"
+      },
+      {
+        "institution": "University of Palermo",
+        "area": "Computer Engineering",
+        "studyType": "Bachelor's",
+        "startDate": "2002",
+        "endDate": "2006",
+        "gpa": "Graduated with honors"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Italian",
+        "fluency": "Native"
+      },
+      {
+        "language": "English",
+        "fluency": "Professional"
+      }
+    ]
+  }
