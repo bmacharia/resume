@@ -1,5 +1,6 @@
 import React from 'react';
 import HeaderWithLine from './HeaderWithLine';
+import { formatDate } from '../utils/dateFormat';
 
 export default function Education({ education }) {
   return (
@@ -14,7 +15,7 @@ export default function Education({ education }) {
               {ed.gpa && <div className="text-gray-500 text-sm">{ed.gpa}</div>}
             </div>
             <div className="text-gray-500">
-              {ed.startDate} - {ed.endDate || "Present"}
+              {formatDate(ed.startDate)} - {ed.endDate ? formatDate(ed.endDate) : "Present"}
             </div>
           </div>
         ))}

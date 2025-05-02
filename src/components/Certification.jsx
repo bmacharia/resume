@@ -1,5 +1,6 @@
 import React from 'react';
 import HeaderWithLine from './HeaderWithLine';
+import { formatDate } from '../utils/dateFormat';
 
 export default function Certification({ certificates }) {
   return (
@@ -14,7 +15,7 @@ export default function Certification({ certificates }) {
               <div className="text-gray-500 text-sm">{cert.description}</div>
             </div>
             <div className="text-gray-500">
-              {cert.startDate} - {cert.endDate || "Present"}
+              {formatDate(cert.startDate)} - {cert.endDate ? formatDate(cert.endDate) : "Present"}
             </div>
           </div>
         ))}
