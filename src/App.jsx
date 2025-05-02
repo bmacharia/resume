@@ -21,19 +21,23 @@ function App() {
       <header className="mb-8 border-b pb-4">
         <h1 className="text-4xl font-bold">{resume.basics.name}</h1>
         <h2 className="text-2xl text-gray-600">{resume.basics.label}</h2>
-        <p className="mt-2 text-gray-700">{resume.basics.summary}</p>
+        <p className="text-gray-700">{resume.basics.summary}</p>
+
+        <div className="grid md:grid-cols-3 gap-8 mt-4">
+          <aside className="md:col-span-1 space-y-6">
+            <Contact basics={resume.basics} />
+          </aside>
+          <div className="md:col-span-2 space-y-6">
+            
+            <Skills skills={resume.skills} />
+            <Languages languages={resume.languages} />
+          </div>
+        </div>
       </header>
-      <div className="grid md:grid-cols-3 gap-8">
-        <aside className="md:col-span-1 space-y-6">
-          <Contact basics={resume.basics} />
-          <Skills skills={resume.skills} />
-          <Languages languages={resume.languages} />
-        </aside>
-        <main className="md:col-span-2 space-y-8">
-          <Experience work={resume.work} />
-          <Education education={resume.education} certificates={resume.certificates} />
-        </main>
-      </div>
+      <main className="space-y-8">
+        <Experience work={resume.work} />
+        <Education education={resume.education} certificates={resume.certificates} />
+      </main>
     </div>
   );
 }
