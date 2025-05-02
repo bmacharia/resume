@@ -11,27 +11,39 @@
       }
 
       @media print {
+        html {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+          font-size: 16px !important; /* Base font size */
+        }
+        
         body {
           background-color: white;
-          margin: 0;
-          padding: 0;
-          color: black;
+          margin: 0 !important;
+          padding: 0 !important;
+          width: 100% !important;
+          zoom: 100% !important; /* Prevent browser zoom */
+          font-size: 100% !important;
+          -webkit-text-size-adjust: 100% !important;
+          text-size-adjust: 100% !important;
         }
         
         #root {
-          display: block;
-          width: 100%;
+          display: block !important;
+          width: 100% !important;
+          transform: none !important;
+        }
+        
+        h1 {
+          font-size: 3rem !important; /* text-5xl equivalent */
+        }
+        
+        h2 {
+          font-size: 1.875rem !important; /* text-3xl equivalent */
         }
         
         .blue-icon {
           filter: invert(22%) sepia(91%) saturate(1352%) hue-rotate(182deg) brightness(95%) contrast(102%);
-          print-color-adjust: exact;
-          -webkit-print-color-adjust: exact;
-        }
-        
-        a {
-          color: #00629b !important;
-          text-decoration: none;
         }
       }
     </style>

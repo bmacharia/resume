@@ -4,7 +4,7 @@ import { formatDate } from '../utils/dateFormat';
 
 export default function Experience({ work }) {
   return (
-    <section>
+    <section >
       <HeaderWithLine title="Experience" />
       <div className="space-y-6">
         {work.map((job, idx) => (
@@ -15,16 +15,16 @@ export default function Experience({ work }) {
             <div className="flex flex-col md:flex-row md:justify-between">
               <div>
                 <div className="text-xl font-semibold">{job.position}</div>
-                <div className="text-lg font-semibold text-gray-500">{job.company}</div>
-                {job.team && <div className="text-gray-500 text-sm">{job.team}</div>}
+                <div className="text-lg font-semibold text-gray-500 print:text-gray-500">{job.company}</div>
+                {job.team && <div className="text-gray-500 text-sm print:text-gray-500">{job.team}</div>}
               </div>
-              <div className="text-gray-500">
+              <div className="text-gray-500 print:text-gray-500">
                 {formatDate(job.startDate)} - {job.endDate ? formatDate(job.endDate) : "Present"}
               </div>
             </div>
             <ul className="list-disc list-inside mt-2 space-y-1">
               {job.highlights.map((item, i) => (
-                <li key={i} className="text-sm text-gray-700 text-justify">{item}</li>
+                <li key={i} className="text-sm text-gray-700 print:text-gray-700">{item}</li>
               ))}
             </ul>
           </div>
