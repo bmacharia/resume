@@ -6,7 +6,7 @@ export default function Languages({ languages }) {
         <h2 className="text-xl font-bold mb-2">Languages</h2>
         <ul className="list-disc list-inside space-y-1">
           {languages.map((lang, idx) => (
-            <li key={idx}>
+            <li key={idx} className="text-gray-700">
               {lang.language} ({lang.fluency})
             </li>
           ))}
