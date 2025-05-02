@@ -162,6 +162,8 @@
       {
         "name": "Certified Kubernetes Administrator (CKA)",
         "issuer": "Linux Foundation",
+        "startDate": "2023",
+        "endDate": "2025",
         "description": "Comprehensive certification demonstrating expertise in deploying, managing, and troubleshooting Kubernetes clusters in production environments."
       }
     ],

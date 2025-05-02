@@ -5,11 +5,34 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Giuseppe Santoro | Resume</title>
-    <script src="http://localhost:5173"></script>
-    <!-- <script src="http://localhost:8097"></script> -->
     <style>
       .blue-icon {
         filter: invert(22%) sepia(91%) saturate(1352%) hue-rotate(182deg) brightness(95%) contrast(102%);
+      }
+
+      @media print {
+        body {
+          background-color: white;
+          margin: 0;
+          padding: 0;
+          color: black;
+        }
+        
+        #root {
+          display: block;
+          width: 100%;
+        }
+        
+        .blue-icon {
+          filter: invert(22%) sepia(91%) saturate(1352%) hue-rotate(182deg) brightness(95%) contrast(102%);
+          print-color-adjust: exact;
+          -webkit-print-color-adjust: exact;
+        }
+        
+        a {
+          color: #00629b !important;
+          text-decoration: none;
+        }
       }
     </style>
   </head>

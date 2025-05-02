@@ -3,7 +3,7 @@ import React from 'react'
 export default function Experience({ work }) {
     return (
       <section>
-        <h2 className="text-xl font-bold mb-2">Experience</h2>
+        <h2 className="text-xl font-bold mb-2 uppercase">Experience</h2>
         <div className="space-y-6">
           {work.map((job, idx) => (
             <div key={idx} className="border-b pb-4">

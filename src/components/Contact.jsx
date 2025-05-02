@@ -7,7 +7,7 @@ export default function Contact({ basics }) {
   
     return (
       <section>
-        <h2 className="text-xl font-bold mb-2">Contact</h2>
+        {/* <h2 className="text-xl font-bold mb-2 uppercase">Contact</h2> */}
         <div className="space-y-2">
           <div className="flex items-center gap-2">
             <img 
