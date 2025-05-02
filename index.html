@@ -1,49 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Giuseppe Santoro | Resume</title>
     <style>
+      body {
+        background-color: #f0f0f0;
+        transition: background-color 0.3s ease;
+      }
+
+      .dark body {
+        background-color: #1a1a1a;
+      }
+      
       .blue-icon {
         filter: invert(22%) sepia(91%) saturate(1352%) hue-rotate(182deg) brightness(95%) contrast(102%);
       }
 
       @media print {
-        html {
-          -webkit-print-color-adjust: exact;
-          print-color-adjust: exact;
-          font-size: 16px !important; /* Base font size */
+        html, body {
+          background-color: white !important;
+          margin: 0 !important;
+          padding: 0 !important;
         }
         
         body {
-          background-color: white;
-          margin: 0 !important;
-          padding: 0 !important;
-          width: 100% !important;
-          zoom: 100% !important; /* Prevent browser zoom */
+          -webkit-print-color-adjust: exact !important;
+          print-color-adjust: exact !important;
           font-size: 100% !important;
-          -webkit-text-size-adjust: 100% !important;
-          text-size-adjust: 100% !important;
         }
         
         #root {
-          display: block !important;
           width: 100% !important;
-          transform: none !important;
+          max-width: none !important;
+          margin: 0 !important;
+          padding: 0 !important;
         }
         
-        h1 {
-          font-size: 3rem !important; /* text-5xl equivalent */
-        }
-        
-        h2 {
-          font-size: 1.875rem !important; /* text-3xl equivalent */
+        * {
+          box-shadow: none !important;
+          text-shadow: none !important;
         }
         
         .blue-icon {
           filter: invert(22%) sepia(91%) saturate(1352%) hue-rotate(182deg) brightness(95%) contrast(102%);
+          -webkit-print-color-adjust: exact !important;
+          print-color-adjust: exact !important;
         }
       }
     </style>

@@ -1,13 +1,12 @@
 import React from 'react'
 
-export default function Contact({ basics }) {
+export default function Contact({ basics, isDarkMode }) {
     const getIconPath = (network) => {
       return `${import.meta.env.BASE_URL}icons/${network.toLowerCase()}.svg`;
     };
   
     return (
       <section>
-        {/* <h2 className="text-xl font-bold mb-2 uppercase">Contact</h2> */}
         <div className="text-sm space-y-2">
           <div className="flex items-center gap-2">
             <img 
@@ -15,7 +14,7 @@ export default function Contact({ basics }) {
               alt="Email" 
               className="w-5 h-5 blue-icon" 
             />
-            <a href={`mailto:${basics.email}`} className="text-gray-700 underline">{basics.email}</a>
+            <a href={`mailto:${basics.email}`} className={`${isDarkMode ? 'text-gray-500' : 'text-gray-700'} underline`}>{basics.email}</a>
           </div>
           {basics.profiles.map(profile => (
             <div key={profile.network} className="flex items-center gap-2">
@@ -26,7 +25,7 @@ export default function Contact({ basics }) {
               />
               <a
                 href={profile.url}
-                className="text-gray-700 underline"
+                className={`${isDarkMode ? 'text-gray-500' : 'text-gray-700'} underline`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
