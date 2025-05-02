@@ -19,10 +19,10 @@ function App() {
     // Detect print mode
     const beforePrint = () => setIsPrinting(true);
     const afterPrint = () => setIsPrinting(false);
-    
+
     window.addEventListener('beforeprint', beforePrint);
     window.addEventListener('afterprint', afterPrint);
-    
+
     return () => {
       window.removeEventListener('beforeprint', beforePrint);
       window.removeEventListener('afterprint', afterPrint);
@@ -51,11 +51,11 @@ function App() {
         </div>
       </header>
       <main className="space-y-8 print:space-y-4">
-        <Experience work={resume.work} />
         <Skills skills={resume.skills} />
-        <Languages languages={resume.languages} />
+        <Experience work={resume.work} />
         <Education education={resume.education} />
         <Certification certificates={resume.certificates} />
+        <Languages languages={resume.languages} />
       </main>
       <footer className="py-6 mt-8 print:hidden"></footer>
     </div>
