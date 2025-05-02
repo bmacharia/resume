@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import HeaderWithLine from './HeaderWithLine';
 
 export default function Skills({ skills }) {
     return (
       <section>
-        <h2 className="text-xl font-bold mb-2 uppercase">Skills</h2>
+        <HeaderWithLine title="Skills" />
         <ul className="list-disc list-inside space-y-1">
           {skills.map((skill, idx) => (
             <li key={idx} className="text-gray-700">

@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import HeaderWithLine from './HeaderWithLine';
 
 export default function Certification({ certificates }) {
     return (
       <section>
-        <h2 className="text-xl font-bold mb-2 uppercase">Certification</h2>
+        <HeaderWithLine title="Certification" />
         <div className="space-y-4">
           {certificates.map((cert, idx) => (
             <div key={idx}>

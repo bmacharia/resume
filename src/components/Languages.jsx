@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import HeaderWithLine from './HeaderWithLine';
 
 export default function Languages({ languages }) {
     return (
       <section>
-        <h2 className="text-xl font-bold mb-2 uppercase">Languages</h2>
+        <HeaderWithLine title="Languages" />
         <ul className="list-disc list-inside space-y-1">
           {languages.map((lang, idx) => (
             <li key={idx} className="text-gray-700">

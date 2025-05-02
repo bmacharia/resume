@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import HeaderWithLine from './HeaderWithLine';
 
 export default function Education({ education }) {
     return (
       <section>
-        <h2 className="text-xl font-bold mb-2 uppercase">Education</h2>
+        <HeaderWithLine title="Education" />
         <div className="space-y-4">
           {education.map((ed, idx) => (
             <div key={idx}>
