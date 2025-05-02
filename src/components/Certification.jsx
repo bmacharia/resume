@@ -12,7 +12,7 @@ export default function Certification({ certificates }) {
             <div key={idx}>
               <div className="font-semibold">{cert.name}</div>
               <div className="text-gray-600">{cert.issuer}</div>
-              <div className="text-gray-500 text-sm">{cert.description}</div>
+              <div className="text-gray-500 text-sm text-justify">{cert.description}</div>
             </div>
             <div className="text-gray-500">
               {formatDate(cert.startDate)} - {cert.endDate ? formatDate(cert.endDate) : "Present"}
