@@ -78,7 +78,7 @@ function App() {
       
       <header className="mb-8 pb-4 print:mb-8">
         <h1 className={`text-5xl font-bold ${isDarkMode ? 'text-gray' : ''} print:text-gray`}>{resume.basics.name}</h1>
-        <h2 className={`text-3xl ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>{resume.basics.label}</h2>
+        <h2 className={`text-3xl ${isDarkMode ? 'text-gray-400' : 'text-gray-500'} font-semibold`}>{resume.basics.label}</h2>
 
         <div className="grid md:grid-cols-3 gap-8 mt-4 print:grid-cols-3 print:gap-4">
           <aside className="md:col-span-1 space-y-6 print:col-span-1 print:space-y-3 print:break-inside-avoid">

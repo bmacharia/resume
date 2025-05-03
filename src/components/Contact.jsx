@@ -25,7 +25,7 @@ export default function Contact({ basics, isDarkMode }) {
               />
               <a
                 href={profile.url}
-                className={`${isDarkMode ? 'text-gray-500' : 'text-gray-700'} underline`}
+                className={`${isDarkMode ? 'text-gray-500' : 'text-gray-700'} text-sm underline`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
