@@ -7,7 +7,7 @@ export default function Contact({ basics }) {
   
     return (
       <section>
-        <div className="text-sm space-y-2">
+        <div className="text-base space-y-2">
           <div className="flex items-center gap-2">
             <img 
               src={`${import.meta.env.BASE_URL}icons/email.svg`} 
@@ -25,7 +25,7 @@ export default function Contact({ basics }) {
               />
               <a
                 href={profile.url}
-                className="text-gray-700 dark:text-gray-500 text-sm underline"
+                className="text-gray-700 dark:text-gray-500 text-base underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >

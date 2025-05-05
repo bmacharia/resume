@@ -57,7 +57,7 @@ export default function PrintButton() {
             <li>
               <button 
                 onClick={handlePrint}
-                className="w-full text-left px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                className="w-full text-left px-4 py-2 text-base text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
               >
                 Print from Browser
               </button>
@@ -65,7 +65,7 @@ export default function PrintButton() {
             <li>
               <button 
                 onClick={handleDownloadPDF}
-                className="w-full text-left px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                className="w-full text-left px-4 py-2 text-base text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
               >
                 Download PDF File
               </button>

@@ -16,9 +16,9 @@ export default function Education({ education }) {
               <div>
                 <div className="text-xl font-semibold">{ed.studyType} in {ed.area}</div>
                 <div className="text-gray-500 dark:text-gray-400 text-lg font-semibold print:text-gray-500">{ed.institution}</div>
-                {ed.gpa && <div className="text-gray-500 text-sm text-justify print:text-gray-500">{ed.gpa}</div>}
+                {ed.gpa && <div className="text-gray-500 text-base text-justify print:text-gray-500">{ed.gpa}</div>}
               </div>
-              <div className="text-gray-500 dark:text-gray-400 text-sm print:text-gray-500">
+              <div className="text-gray-500 dark:text-gray-400 text-base print:text-gray-500">
                 {formatDate(ed.startDate)} - {ed.endDate ? formatDate(ed.endDate) : "Present"}
               </div>
             </div>
