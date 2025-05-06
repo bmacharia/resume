@@ -70,10 +70,8 @@ function App() {
       ${!isPrinting ? 'transform hover:shadow-[0_14px_28px_rgba(0,0,0,0.25),_0_10px_10px_rgba(0,0,0,0.22)] transition-all duration-300 ease-in-out' : ''} 
       text-[#00629b] dark:text-[#3282b8] print:shadow-none print:border-0 print:p-8 print:mx-8 print:max-w-none print:bg-white! print:text-[#00629b]!`}>
       
-      {/* Theme toggle button */}
       <ThemeToggle isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
       
-      {/* Print button */}
       <PrintButton />
       
       <header className="mb-8 pb-4 print:mb-8">
