@@ -41,7 +41,7 @@
     {
       "company": "Elastic",
       "position": "Senior Software Engineer",
-      "website": "",
+      "website": "https://www.elastic.co/",
       "startDate": "2024-05",
       "endDate": "2025-03",
       "team": "Platform - Engineering Productivity Team",
@@ -68,35 +68,11 @@
       ]
     },
     {
-      "company": "CloudNativeEngineer",
-      "position": "Technical Writer",
-      "website": "",
-      "startDate": "2023",
-      "endDate": "Present",
-      "highlights": [
-        "Built substantial audience of 2,000+ subscribers by creating in-depth technical content on cloud-native technologies, maintaining consistent engagement with 4.7K monthly views.",
-        "Established premium content subscription model, successfully converting readers to paid subscribers through specialized material on Kubernetes, Elasticsearch, and DevOps.",
-        "Helped fellow engineers solve common challenges by sharing practical guides and real-world solutions based on hands-on experience with cloud-native technologies."
-      ]
-    },
-    {
-      "company": "MentorCruise",
-      "position": "Mentor",
-      "website": "",
-      "startDate": "2023",
-      "endDate": "Present",
-      "highlights": [
-        "Guided executive leadership on critical technical architecture decisions, resulting in successful Elasticsearch implementations and optimized system designs with measurable performance improvements.",
-        "Accelerated career progression for senior engineers through targeted mentorship on cloud-native technologies, system design, and professional development strategies.",
-        "Consistently prepared senior engineers for successful technical and behavioral interviews at leading technology companies, earning perfect 5-star ratings across multiple reviews."
-      ]
-    },
-    {
       "company": "PlayStation",
       "position": "Big Data Engineer",
-      "website": "",
-      "startDate": "2018",
-      "endDate": "2021",
+      "website": "https://www.playstation.com",
+      "startDate": "2018-10",
+      "endDate": "2021-08",
       "team": "Game Analytics Team",
       "highlights": [
         "Transformed query performance from hours to seconds by building a data analytics optimization tool in Golang that efficiently processed multi-month datasets using AWS S3, Athena, and Glue.",
@@ -110,7 +86,7 @@
     {
       "company": "Skimlinks",
       "position": "Senior Software Engineer",
-      "website": "",
+      "website": "https://www.skimlinks.com",
       "startDate": "2017-03",
       "endDate": "2018-08",
       "team": "Platform Team",
@@ -121,11 +97,27 @@
       ]
     },
     {
+      "company": "BenevolentAI (formerly Stratified Medical)",
+      "position": "Big Data Software Engineer",
+      "website": "https://www.benevolent.com",
+      "startDate": "2015-07",
+      "endDate": "2017-02",
+      "team": "Platform Team",
+      "highlights": [
+        "Reduced the ingestion time of 40 million scientific publications into ElasticSearch by ~8x (from 24 to 3 hours) by rewriting one of the steps of the data pipeline (Spark, Hadoop cluster on AWS).",
+        "Deployed, configured and maintained a variety of Hadoop, ElasticSearch and Cassandra clusters either bare-metal on-premise or on cloud (Python, Ansible, Amazon AWS)",
+        "Contributed to the migration of the batch data pipeline from a bare-metal Hadoop cluster to an Amazon EMR cluster by rewriting a Map/Reduce job that was written in Java into a Spark job written in Scala",
+        "Automated the scheduling of the data pipeline by writing multiple Airflow jobs (Python)",
+        "Improved the data pipeline alerting capabilities (Python and Bash scripting)",
+        "Contributed and maintained various apps running on Mesos and Marathon as Docker containers"
+      ]
+    },
+    {
       "company": "Big Data Partnership (acquired by Teradata)",
       "position": "Senior Big Data Engineer",
-      "website": "",
-      "startDate": "2013",
-      "endDate": "2015",
+      "website": "https://www.bigdatapartnership.com/",
+      "startDate": "2013-11",
+      "endDate": "2015-07",
       "team": "Training & Consulting",
       "highlights": [
         "Delivered official Hadoop training at Hadoop Summit with Hortonworks for 2 consecutive years, showcasing technical expertise to industry professionals.",
