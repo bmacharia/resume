@@ -1,39 +1,24 @@
 {
   "basics": {
-    "name": "Giuseppe Santoro",
-    "label": "Senior Software Engineer",
-    "email": "giuseppe.santoro@gmail.com",
-    "summary": "Senior Software Engineer with over 12 years of experience in platform engineering, cloud-native technologies, and observability. Expertise in building infrastructure for millions of users at PlayStation and Elastic, focusing on high-performance distributed systems and data pipelines using Kubernetes, AWS, and GCP. CKA-certified with a proven ability to optimize systems, achieving significant reductions in query times and pipeline runtimes. Strong communicator and technical writer, mentoring teams in adopting cloud-native architectures.",
+    "name": "Babu Macharia",
+    "label": "IT Infrastructure | Cloud Engineer | DevOps | US Navy Veteran",
+    "email": "babu.macharia@protonmail.com",
+    "summary": "Cloud Engineer and DevOps specialist with expertise in AWS infrastructure automation and software development lifecycle optimization. Proven ability to design, implement, and manage scalable cloud architectures. AWS CertifiedSolutions Architect.",
     "profiles": [
       {
         "network": "GitHub",
-        "username": "gsantoro",
-        "url": "https://github.com/gsantoro"
+        "username": "bmacharia",
+        "url": "https://github.com/bmacharia"
       },
       {
         "network": "LinkedIn",
-        "username": "santorogiuseppe",
-        "url": "https://linkedin.com/in/santorogiuseppe"
+        "username": "bmacharia",
+        "url": "https://www.linkedin.com/in/babu-macharia/"
       },
       {
-        "network": "Substack",
-        "username": "Cloud Native Engineer",
-        "url": "https://cloudnativeengineer.substack.com"
-      },
-      {
-        "network": "Substack",
-        "username": "Cloud Native Creator",
-        "url": "https://cloudnativecreator.substack.com"
-      },
-      {
-        "network": "Playstation",
-        "username": "Playstation launched games",
-        "url": "https://www.mobygames.com/person/1021019/giuseppe-santoro/"
-      },
-      {
-        "network": "LeetCode",
-        "username": "gsantoro",
-        "url": "https://leetcode.com/gsantoro"
+        "network": "Personal Blog",
+        "username": "Babu Macharia",
+        "url": "https://babumacharia.com/"
       }
     ]
   },
@@ -133,15 +118,18 @@
       "keywords": [
         "Python",
         "Golang",
-        "SQL"
+        "SQL",
+        "Bash Scripting"
       ]
     },
     {
       "name": "Cloud & Infrastructure",
       "keywords": [
-        "AWS (Lambda, Kinesis, EMR, S3, Glue, Athena)",
-        "GCP (Dataflow, BigQuery)",
-        "Kubernetes"
+        "AWS (EC2,S3,CloudFront,Route53,Lambda,API Gateway)",
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "CI/CD Pipelines"
       ]
     },
     {
@@ -157,7 +145,6 @@
     {
       "name": "DevOps & Tools",
       "keywords": [
-        "Docker",
         "Terraform",
         "Ansible",
         "Renovate",
@@ -167,29 +154,24 @@
   ],
   "certificates": [
     {
-      "name": "Certified Kubernetes Administrator (CKA)",
-      "issuer": "Linux Foundation",
-      "startDate": "2023",
-      "endDate": "2025",
-      "description": "Comprehensive certification demonstrating expertise in deploying, managing, and troubleshooting Kubernetes clusters in production environments."
+      "name": "Certified Solutions Architect 2022",
+      "issuer": "Amazon Web Services"
+    },
+    {
+      "name": "Terraform Associate 2022",
+      "issuer": "HashiCorp"
+
     }
   ],
   "education": [
     {
-      "institution": "University of Catania",
-      "area": "Computer Engineering",
-      "studyType": "Master's",
-      "startDate": "2006",
-      "endDate": "2012",
-      "gpa": "Graduated with honors"
+      "institution": "University of California at Berkeley",
+      "studyType": "Bachelors of Arts, English Literature"
     },
     {
-      "institution": "University of Palermo",
-      "area": "Computer Engineering",
-      "studyType": "Bachelor's",
-      "startDate": "2002",
-      "endDate": "2006",
-      "gpa": "Graduated with honors"
+      "institution": "University of California Berkeley Extension",
+      "area": "Professional Program in Data Administration and Management",
+      "studyType": "Data(bases) Using SQL, Developing Database Applications, Data Mining Using SQL"
     }
   ],
   "languages": [
