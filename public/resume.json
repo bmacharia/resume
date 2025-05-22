@@ -22,136 +22,7 @@
       }
     ]
   },
-  "work": [
-    {
-      "company": "Elastic",
-      "position": "Senior Software Engineer",
-      "website": "https://www.elastic.co/",
-      "startDate": "2024-05",
-      "endDate": "2025-03",
-      "team": "Platform - Engineering Productivity Team",
-      "highlights": [
-        "Significantly reduced infrastructure incidents by designing and implementing an internal framework to use Elastic Synthetic monitoring, driving adoption across 8+ engineering teams for monitoring business-critical internal services.",
-        "Enhanced security posture by implementing company-wide dependency management through Renovate, ensuring consistent and up-to-date software dependencies across the organization's codebase.",
-        "Improved incident response time as an active member of the production incident team, providing on-call support while delivering thorough root cause analyses that prevented recurring issues."
-      ]
-    },
-    {
-      "company": "Elastic",
-      "position": "Senior Software Engineer",
-      "website": "",
-      "startDate": "2022-03",
-      "endDate": "2024-05",
-      "team": "Observability - Cloud Native Team",
-      "highlights": [
-        "Expanded observability capabilities by developing a custom Elastic integration for Istio logs and metrics, enabling customers to effectively monitor service mesh performance.",
-        "Streamlined troubleshooting processes by engineering a remote debugging solution for Elastic Beats running on Kubernetes using Go Delve Debugger and Tilt.",
-        "Enhanced user experience by creating and maintaining specialized dashboards for the Elastic Kubernetes integration, improving visibility into cluster metrics.",
-        "Resolved complex customer escalations related to Kubernetes implementations while contributing critical bug fixes and features to Elastic Agent and Beats codebases.",
-        "Improved hiring quality by conducting technical interviews across multiple engineering positions, evaluating candidates' skills and team fit.",
-        "Technical reviewer of the book Elastic Stack 8.x Cookbook."
-      ]
-    },
-    {
-      "company": "PlayStation",
-      "position": "Big Data Engineer",
-      "website": "https://www.playstation.com",
-      "startDate": "2018-10",
-      "endDate": "2021-08",
-      "team": "Game Analytics Team",
-      "highlights": [
-        "Transformed query performance from hours to seconds by building a data analytics optimization tool in Golang that efficiently processed multi-month datasets using AWS S3, Athena, and Glue.",
-        "Enhanced data analysis capabilities by developing a real-time event processor with Python and AWS Lambda that improved ID mapping for better data correlation and insights.",
-        "Optimized infrastructure spend while supporting 10+ PlayStation game launches through strategic capacity planning and resource optimization using AWS EMR, Lambda, and Kinesis.",
-        "Eliminated critical incidents by leading a comprehensive pipeline refactoring project using Golang, Python, and AWS services, significantly improving system reliability.",
-        "Accelerated media content discovery by creating a video search and transcoding tool for Studio Engineers using Python, improving cross-team collaboration.",
-        "Maintained reliable operations of complex infrastructure including 10+ microservices, 20+ EMR jobs, and 5+ Lambda functions using Terraform and Ansible."
-      ]
-    },
-    {
-      "company": "Skimlinks",
-      "position": "Senior Software Engineer",
-      "website": "https://www.skimlinks.com",
-      "startDate": "2017-03",
-      "endDate": "2018-08",
-      "team": "Platform Team",
-      "highlights": [
-        "Dramatically accelerated pipeline runtime using Google Dataflow to efficiently ingest 120M documents into Elasticsearch, completing tasks in a fraction of the previous time.",
-        "Delivered substantial cost savings by migrating data pipeline from on-premise Hadoop to Google BigQuery while simultaneously improving overall query performance.",
-        "Eliminated manual intervention through Airflow orchestration on Kubernetes, automating pipeline scheduling and monitoring while reducing operational overhead."
-      ]
-    },
-    {
-      "company": "BenevolentAI (formerly Stratified Medical)",
-      "position": "Big Data Software Engineer",
-      "website": "https://www.benevolent.com",
-      "startDate": "2015-07",
-      "endDate": "2017-02",
-      "team": "Platform Team",
-      "highlights": [
-        "Reduced the ingestion time of 40 million scientific publications into ElasticSearch by ~8x (from 24 to 3 hours) by rewriting one of the steps of the data pipeline (Spark, Hadoop cluster on AWS).",
-        "Deployed, configured and maintained a variety of Hadoop, ElasticSearch and Cassandra clusters either bare-metal on-premise or on cloud (Python, Ansible, Amazon AWS)",
-        "Contributed to the migration of the batch data pipeline from a bare-metal Hadoop cluster to an Amazon EMR cluster by rewriting a Map/Reduce job that was written in Java into a Spark job written in Scala",
-        "Automated the scheduling of the data pipeline by writing multiple Airflow jobs (Python)",
-        "Improved the data pipeline alerting capabilities (Python and Bash scripting)",
-        "Contributed and maintained various apps running on Mesos and Marathon as Docker containers"
-      ]
-    },
-    {
-      "company": "Big Data Partnership (acquired by Teradata)",
-      "position": "Senior Big Data Engineer",
-      "website": "https://www.bigdatapartnership.com/",
-      "startDate": "2013-11",
-      "endDate": "2015-07",
-      "team": "Training & Consulting",
-      "highlights": [
-        "Delivered official Hadoop training at Hadoop Summit with Hortonworks for 2 consecutive years, showcasing technical expertise to industry professionals.",
-        "Led 5+ Hadoop training courses (Admin/Developer) across Europe, achieving 90% positive feedback from participants.",
-        "Led team of 3 engineers in 4-month greenfield project implementing Hadoop cluster and data pipeline for a major client.",
-        "Demonstrated technical excellence with certification scores: Hadoop Administrator (83%), Developer (92%), and Java Developer (93%)."
-      ]
-    }
-  ],
-  "skills": [
-    {
-      "name": "Programming",
-      "keywords": [
-        "Python",
-        "Golang",
-        "SQL",
-        "Bash Scripting"
-      ]
-    },
-    {
-      "name": "Cloud & Infrastructure",
-      "keywords": [
-        "AWS (EC2,S3,CloudFront,Route53,Lambda,API Gateway)",
-        "Docker",
-        "Kubernetes",
-        "Git",
-        "CI/CD Pipelines"
-      ]
-    },
-    {
-      "name": "Elastic Stack",
-      "keywords": [
-        "Elastic Cloud on Kubernetes (ECK)",
-        "Elastic Agent",
-        "Beats",
-        "Kibana",
-        "Integration Development"
-      ]
-    },
-    {
-      "name": "DevOps & Tools",
-      "keywords": [
-        "Terraform",
-        "Ansible",
-        "Renovate",
-        "Bash scripting"
-      ]
-    }
-  ],
+
   "certificates": [
     {
       "name": "Certified Solutions Architect 2022",
@@ -174,14 +45,93 @@
       "studyType": "Data(bases) Using SQL, Developing Database Applications, Data Mining Using SQL"
     }
   ],
-  "languages": [
+
+  "projects": [
     {
-      "language": "Italian",
-      "fluency": "Native"
+      "name": "AWS-Based Scalable Web Architecture",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31",
+      "description": "Engineered a secure, scalable web application architecture on AWS with a containerized Flask backend on ECS Fargate and a React front-end served via S3/CloudFront. Implemented continuous integration and deployment with AWS CodePipeline, and used Amazon RDS (PostgreSQL) and DynamoDB for data storage.",
+      "highlights": [
+        "Designed and implemented a secure AWS architecture featuring a custom VPC and containerized Flask application on ECS Fargate.",
+        "Configured AWS CodePipeline for continuous integration and deployment, enabling automated updates.",
+        "Hosted a responsive React front end on Amazon S3 with CloudFront, managing data with Amazon RDS (PostgreSQL) and DynamoDB for high availability."
+      ],
+      "keywords": [
+        "AWS",
+        "Amazon VPC",
+        "AWS ECS Fargate",
+        "Flask",
+        "React",
+        "Amazon S3",
+        "Amazon CloudFront",
+        "Amazon RDS",
+        "PostgreSQL",
+        "Amazon DynamoDB",
+        "AWS CodePipeline",
+        "CI/CD"
+      ]
     },
     {
-      "language": "English",
-      "fluency": "Professional"
+      "name": "TerraTowns Community Platform",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31",
+      "description": "Built an Infrastructure-as-Code solution for a community platform using Terraform Cloud for state management and AWS services for content delivery. Developed a custom Terraform provider in Go (validated with a Ruby mock server) to enable streamlined infrastructure management, and produced comprehensive documentation for future maintenance.",
+      "highlights": [
+        "Leveraged Terraform Cloud for state file management and integrated AWS services (Amazon S3, CloudFront) for efficient data handling.",
+        "Developed a custom Terraform provider in Go, validated via a Ruby-based mock server, to streamline CRUD operations for community infrastructure management.",
+        "Produced clear documentation to facilitate development and future maintenance."
+      ],
+      "keywords": [
+        "Terraform",
+        "Terraform Cloud",
+        "Go",
+        "Ruby",
+        "Amazon S3",
+        "Amazon CloudFront",
+        "Infrastructure as Code",
+        "Terraform Provider",
+        "AWS"
+      ]
+    },
+    {
+      "name": "Microsoft Infrastructure Workshop – SQL Server",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31",
+      "description": "Configured a multi-site Windows infrastructure (Active Directory, DNS, networking) to support a high-availability SQL Server environment. Implemented SQL Server Always On Availability Groups for robust disaster recovery and enhanced troubleshooting skills to ensure reliable operations.",
+      "highlights": [
+        "Configured multi-site data center environments incorporating Active Directory, DNS, and networking to support high availability.",
+        "Implemented SQL Server Always On Availability Groups for high availability and disaster recovery.",
+        "Enhanced troubleshooting skills, reducing reliance on external resources and ensuring infrastructure reliability."
+      ],
+      "keywords": [
+        "Active Directory",
+        "DNS",
+        "Networking",
+        "SQL Server",
+        "Always On Availability Groups",
+        "High Availability",
+        "Disaster Recovery",
+        "Troubleshooting"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "name": "Exact Sciences",
+      "location": "Redwood City, CA",
+      "position": "Specimen Material Handler, Accessioning Technician II, Pre-Analytical Laboratory Technician II",
+      "startDate": "2012-01-01",
+      "endDate": "2022-12-31",
+      "summary": "Held multiple roles in specimen handling and pre-analytical laboratory operations, implementing process improvements that increased sample handling capacity, reduced errors, and improved compliance with quality standards.",
+      "highlights": [
+        "Increased IntelliCab sample capacity by 30% through process modifications.",
+        "Reduced sample swap incidents by 50%.",
+        "Improved compliance with quality standards by 25%.",
+        "Conducted quality control on 60-100 specimens with 99% accuracy.",
+        "Streamlined lab intake processes, reducing processing time by 20%.",
+        "Verified sample integrity, achieving 99% accuracy."
+      ]
     }
   ]
 }
