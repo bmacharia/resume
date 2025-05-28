@@ -19,7 +19,7 @@ export default function Education({ education }) {
                 {ed.gpa && <div className="text-gray-500 text-base text-justify print:text-gray-500">{ed.gpa}</div>}
               </div>
               <div className="text-gray-500 dark:text-gray-400 text-base print:text-gray-500">
-                {formatDate(ed.startDate)} - {ed.endDate ? formatDate(ed.endDate) : "Present"}
+                {ed.endDate && formatDate(ed.endDate)}
               </div>
             </div>
           </div>

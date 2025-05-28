@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import Contact from "./components/Contact";
-import Experience from "./components/Experience";
+import WorkHistory from "./components/WorkHistory";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
 import Languages from "./components/Languages";
@@ -8,6 +8,7 @@ import Certification from "./components/Certification";
 import Summary from "./components/Summary";
 import ThemeToggle from "./components/ThemeToggle";
 import PrintButton from "./components/PrintButton";
+import Projects from "./components/Projects";
 
 function App() {
   const [resume, setResume] = useState(null);
@@ -89,10 +90,14 @@ function App() {
       </header>
       <main className="space-y-8 print:space-y-4">
         <Skills skills={resume.skills} />
-        <Experience work={resume.work} />
-        <Education education={resume.education} />
+        <Projects projects={resume.projects} />
         <Certification certificates={resume.certificates} />
-        <Languages languages={resume.languages} />
+        <Education education={resume.education} />
+        <WorkHistory work={resume.work} />
+  
+    
+    
+    
       </main>
       <footer className="py-6 mt-8 print:hidden"></footer>
     </div>

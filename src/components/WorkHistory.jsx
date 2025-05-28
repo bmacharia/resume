@@ -2,10 +2,10 @@ import React from 'react'
 import HeaderWithLine from './HeaderWithLine';
 import { formatDate } from '../utils/dateFormat';
 
-export default function Experience({ work }) {
+export default function WorkHistory({ work }) {
   return (
     <section >
-      <HeaderWithLine title="Experience" />
+      <HeaderWithLine title="Professional Experience" />
       <div className="space-y-6">
         {work.map((job, idx) => (
           <div

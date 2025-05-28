@@ -1,118 +1,56 @@
 {
   "basics": {
-    "name": "Bab Macharia",
-    "label": "IT Operations | Cloud Engineer | Navy Veteran",
+    "name": "Babu Macharia",
+    "label": "IT Infrastructure | Cloud Engineer | DevOps | US Navy Veteran",
     "email": "babu.macharia@protonmail.com",
     "summary": "Cloud Engineer and DevOps specialist with expertise in AWS infrastructure automation and software development lifecycle optimization. Proven ability to design, implement, and manage scalable cloud architectures. AWS CertifiedSolutions Architect.",
     "profiles": [
       {
         "network": "GitHub",
-        "username": "My GitHub",
+        "username": "bmacharia",
         "url": "https://github.com/bmacharia"
       },
       {
         "network": "LinkedIn",
-        "username": "My LinkedIn",
-        "url": "https://linkedin.com/in/babu-macharia"
+        "username": "bmacharia",
+        "url": "https://www.linkedin.com/in/babu-macharia/"
+      },
+      {
+        "network": "Personal Blog",
+        "username": "Babu Macharia",
+        "url": "https://babumacharia.com/"
       }
-      
     ]
   },
-  "work": [
-    {
-      "company": "Exact Sciences",
-      "position": "Senior Pre-Analytical Laboratory Technician",
-      "startDate": "2012",
-      "endDate": "2022",
-      "highlights": [
-        "Handle pre-analytical operations to boost capacity, and ensure quality compliance",
-        "Increased IntelliCab sample capacity by 30% through process modifications.",
-        "Reduced sample swap incidents by 50%.",
-        "Improved compliance with quality standards by 25%.",
-        "Conducted quality control on 60-100 specimens with 99% accuracy.",
-       "Verified sample integrity, achieving 99% accuracy."
-      ]
-    }
-],
 
-"skills": [
-    {
-      "name": "Programming",
-      "keywords": [
-        "Golang",
-        "Python",
-        "Bash"
-      ]
-    },
-    {
-      "name": "Cloud Infrastructure",
-      "keywords": [
-        "Amazon Web Services (AWS)",
-        "Terraform",
-        "Docker",
-        "Kubernetes"
-      ]
-    },
-    {
-      "name": "Build and Release",
-      "keywords": [
-        "GitHub Actions",
-        "GIT",
-        "CI/CD",
-        "Terraform"
-      ]
-    },
-    {
-      "name": "Operating Systems",
-      "keywords": [
-        "Linux",
-        "Ubuntu",
-        "Red Hat",
-        "Debian"
-      ]
-    }
-
-  ],
   "certificates": [
     {
-      "name": "AWS Certified Solutions Architect – Associate",
-      "issuer": "Amazon Web Services",
-      "startDate": "2023",
-      "endDate": "2025",
-      "description": "Demonstrated expertise in designing and deploying secure, scalable, and cost-effective cloud architectures on AWS."
-
+      "name": "Certified Solutions Architect 2022",
+      "issuer": "Amazon Web Services"
     },
     {
-      "name": "Terraform Associate",
-      "issuer": "Hasicorp",
-      "startDate": "2023",
-      "endDate": "2025",
-      "description": "Demonstrated proficiency in provisioning, configuring, and managing infrastructure as code using Terraform, ensuring repeatable, scalable, and maintainable deployments."
+      "name": "Terraform Associate 2022",
+      "issuer": "HashiCorp"
 
     }
   ],
   "education": [
     {
       "institution": "University of California at Berkeley",
-      "area": "English Litrature",
-      "studyType": "Bachelor of Arts"
-  
+      "studyType": "Bachelors of Arts, English Literature"
     },
     {
       "institution": "University of California Berkeley Extension",
-  
-      "studyType": "Professional Program",
-      "area": "Data Administration and Management",
-      "courses": [
-        "Databases Using SQL",
-        "Developing Database Applications",
-        "Data Mining Using SQL"
-      ]      
+      "area": "Professional Program in Data Administration and Management",
+      "studyType": "Data(bases) Using SQL, Developing Database Applications, Data Mining Using SQL"
     }
   ],
+
   "projects": [
     {
       "name": "AWS-Based Scalable Web Architecture",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31",
       "description": "Engineered a secure, scalable web application architecture on AWS with a containerized Flask backend on ECS Fargate and a React front-end served via S3/CloudFront. Implemented continuous integration and deployment with AWS CodePipeline, and used Amazon RDS (PostgreSQL) and DynamoDB for data storage.",
       "highlights": [
         "Designed and implemented a secure AWS architecture featuring a custom VPC and containerized Flask application on ECS Fargate.",
@@ -136,6 +74,8 @@
     },
     {
       "name": "TerraTowns Community Platform",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31",
       "description": "Built an Infrastructure-as-Code solution for a community platform using Terraform Cloud for state management and AWS services for content delivery. Developed a custom Terraform provider in Go (validated with a Ruby mock server) to enable streamlined infrastructure management, and produced comprehensive documentation for future maintenance.",
       "highlights": [
         "Leveraged Terraform Cloud for state file management and integrated AWS services (Amazon S3, CloudFront) for efficient data handling.",
@@ -156,6 +96,8 @@
     },
     {
       "name": "Microsoft Infrastructure Workshop – SQL Server",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31",
       "description": "Configured a multi-site Windows infrastructure (Active Directory, DNS, networking) to support a high-availability SQL Server environment. Implemented SQL Server Always On Availability Groups for robust disaster recovery and enhanced troubleshooting skills to ensure reliable operations.",
       "highlights": [
         "Configured multi-site data center environments incorporating Active Directory, DNS, and networking to support high availability.",
@@ -171,6 +113,23 @@
         "High Availability",
         "Disaster Recovery",
         "Troubleshooting"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Exact Sciences Corp.",
+      "position": "Specimen Material Handler, Accessioning Technician II, Pre-Analytical Laboratory Technician II",
+      "startDate": "2012-01-01",
+      "endDate": "2022-12-31",
+      "summary": "Held multiple roles in specimen handling and pre-analytical laboratory operations, implementing process improvements that increased sample handling capacity, reduced errors, and improved compliance with quality standards.",
+      "highlights": [
+        "Increased IntelliCab sample capacity by 30% through process modifications.",
+        "Reduced sample swap incidents by 50%.",
+        "Improved compliance with quality standards by 25%.",
+        "Conducted quality control on 60-100 specimens with 99% accuracy.",
+        "Streamlined lab intake processes, reducing processing time by 20%.",
+        "Verified sample integrity, achieving 99% accuracy."
       ]
     }
   ]
